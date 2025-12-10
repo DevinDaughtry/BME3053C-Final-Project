@@ -10,11 +10,18 @@ This application is intended for biomedical researchers, clinicians, and develop
 
 ### Opening the Repository in GitHub Codespaces
 
-[Instructions on how to open this repo in GitHub Codespaces]
+1. Navigate to this repository on GitHub.
+2. Click the green “Code” button.
+3. Select “Open with Codespaces” → “New codespace” on the main branch.
+4. Once the Codespace initializes, open the file HRV_Analysis.ipynb.
 
 ### Running the Application
 
-[Exact command(s) to run the app/game, e.g., `pip install streamlit` then `streamlit run app.py` or `DISPLAY=:0 love .`]
+1. With the notebook open in Codespaces, click “Run All” or run each cell individually.
+2. All required packages are pre-installed in Codespaces.
+If running locally, install dependencies first: pip install wfdb numpy scipy matplotlib pandas
+Then open the notebook using Jupyter: jupyter notebook HRV_Analysis.ipynb
+This project is notebook-based — there is no need for streamlit or a separate app runner.
 
 ## Usage Guide
 
