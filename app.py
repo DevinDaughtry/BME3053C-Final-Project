@@ -51,11 +51,14 @@ st.pyplot(fig1)
 # -----------------------------------------
 st.subheader("3. Peak Detection")
 
-peaks, _ = find_peaks(ppg_filtered, distance=int(fs * 0.5), prominence=0.5)
+# Use adaptive peak detection
+peaks, _ = find_peaks(ppg_filtered, distance=int(fs * 0.5), prominence=0.05, height=0.05)
 
+# Plot
 fig2, ax2 = plt.subplots()
 ax2.plot(ppg_filtered[:1000], label='Filtered PPG')
-ax2.plot(peaks[peaks < 1000], ppg_filtered[peaks[peaks < 1000]], "rx", label='Detected Peaks')
+shown_peaks = peaks[peaks < 1000]
+ax2.plot(shown_peaks, ppg_filtered[shown_peaks], "rx", label='Detected Peaks')
 ax2.set_title("Detected Peaks in PPG (First 1000 Samples)")
 ax2.set_xlabel("Sample")
 ax2.set_ylabel("Amplitude")
