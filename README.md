@@ -1,4 +1,4 @@
-# Project Title
+# BME3053C Final Project Group 10
 
 This project analyzes photoplethysmogram (PPG) signals to compute heart rate variability (HRV) metrics, including RR intervals, RMSSD, and pNN50, by filtering raw signals and detecting heartbeat peaks, and uses these metrics with literature‑based thresholds to estimate physiological stress.
 
@@ -26,7 +26,7 @@ This application is intended for biomedical researchers, clinicians, and develop
 - **Step 6: Output Summary Table** Displays a table of final HRV metrics and the corresponding stress level.
 
 
-## Data Description (optional)
+## Data Description
 
 ### Data Source
 
@@ -43,5 +43,10 @@ Duration: 8 minutes (60,001 samples)
 
 ## Project Structure
 
-[Description of the project structure and organization]
+   BME3053C-HRV-Project/
+ ┣ 📄 HRV_Analysis.ipynb          # Main notebook for analysis
+ ┣ 📄 README.md                   # Project documentation
+ ┣ 📄 requirements.txt            # Python dependencies
+ ┗ 📁 /images                     # Screenshots/plots
+
 
