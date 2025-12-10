@@ -51,9 +51,8 @@ Duration: 8 minutes (60,001 samples)
 ## Project Structure
 
 BME3053C-HRV-Project/
-- HRV_Analysis.ipynb    # Main notebook for analysis
-- README.md             # Project documentation
-- requirements.txt      # Python dependencies
-- /images               # Screenshots/plots
-
-
+📁 .devcontainer/           # GitHub Codespaces configuration folder.                      
+📄 .gitignore               # Specifies files/folders to exclude from version control
+📄 HRV_Analysis.ipynb       # Main Jupyter notebook
+📄 README.md                # Project documentation
+📄 requirements.txt         # List of all Python dependencies needed to run the notebook
