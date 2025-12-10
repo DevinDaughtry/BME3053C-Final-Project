@@ -43,10 +43,10 @@ Duration: 8 minutes (60,001 samples)
 
 ## Project Structure
 
-   BME3053C-HRV-Project/
- ┣ 📄 HRV_Analysis.ipynb          # Main notebook for analysis
- ┣ 📄 README.md                   # Project documentation
- ┣ 📄 requirements.txt            # Python dependencies
- ┗ 📁 /images                     # Screenshots/plots
+BME3053C-HRV-Project/
+- HRV_Analysis.ipynb    # Main notebook for analysis
+- README.md             # Project documentation
+- requirements.txt      # Python dependencies
+- /images               # Screenshots/plots
 
 
